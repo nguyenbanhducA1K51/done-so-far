@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../some node"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Moon"
+	}
+}
