@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="questcss.css">
+
 </head>
 <body>
-    HI
+    
+    <div class="quizbase">
+        <div class="quizhead">
+        <h2 id="question"></i>Question</h2>
+       <ul>
+        <li><input type="radio"id ="a" 
+             name="answer" class="answer"><label id="a_text" for="a">answer_is_a
+              </label></li>
+        <li><input type="radio"id ="b" 
+             name="answer" class="answer"><label id="b_text" for="b">answer_is_b
+              </label></li>
+        <li><input type="radio"id ="c" 
+             name="answer" class="answer"><label id="c_text" for="c">answer_is_c
+              </label></li>
+        <li><input type="radio"id ="d" 
+             name="answer" class="answer"><label id="d_text" for="d">answer_is_d
+              </label></li>
+              
+              <li id="score">0</li>
+              <li id="final">0</li>
+         </ul>
+        </div>
+        <button id="submit">submit</button>
+        
+    </div>
+   <script src="questjavas.js"></script>
 </body>
 </html>

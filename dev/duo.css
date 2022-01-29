@@ -14,7 +14,7 @@ header {
     position: sticky;
     display: grid;
     grid-template-columns:
-        
+
         0.3fr 2fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
@@ -47,7 +47,7 @@ button {
 }
 
 .nav-links {
-    
+
     width: 100%;
     justify-content: space-between;
     display: flex;
@@ -60,6 +60,7 @@ button {
     padding: 0 40px 0 0px;
 
 }
+
 /* need check */
 .nav2 {
     display: flex;
@@ -76,23 +77,29 @@ button {
     /* background-color: aqua; */
     /* display: flex;
     justify-content: center; */
-   text-align: center;
+    text-align: center;
     height: 70px;
     width: 100%;
 }
-.logo
-{
+
+.logo {
     /* width: 70px; */
     /* display: inline-block; */
-width: auto;
-height: 100%;
+    width: auto;
+    height: 100%;
 
-/* width: min-content; */
-     /* margin: 0 auto; */
-    
+    /* width: min-content; */
+    /* margin: 0 auto; */
+
     /* position: relative;  */
 }
 
+.zi-logo {
+
+    width: auto;
+    height: 100%;
+
+}
 
 
 
@@ -103,10 +110,11 @@ height: 100%;
     width: 100%;
     list-style-type: none;
     /* background-color: antiquewhite; */
-    
-   
+
+
 }
-.nav-links2 li{
+
+.nav-links2 li {
     /* background-color: aqua; */
     width: 20%;
 }
@@ -114,29 +122,31 @@ height: 100%;
 
 button {
 
-    
+
     border: none;
-   
+
     border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.currency{
-    
-  
- 
-margin: 0 auto;
-  
+.currency {
+
+
+
+    margin: 0 auto;
+
 }
-.hori{
+
+.hori {
     display: flex;
     width: 100%;
-  
-  
+
+
     height: 100%;
     /* background-color: rebeccapurple; */
 }
+
 .point {
     margin-left: 25px;
     font-weight: bold;
@@ -239,7 +249,7 @@ margin: 0 auto;
     column-gap: 15%;
     row-gap: 70px;
     list-style-type: none;
-    /*  min-width: wrap-content; */
+
     width: 95%;
 
 }
@@ -247,8 +257,8 @@ margin: 0 auto;
 .topic-list-element {
     height: 300px;
     width: 100%;
-border:1px solid rgb(235, 232, 232) ;
-border-radius: 5px;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -260,37 +270,35 @@ border-radius: 5px;
     /* filter:drop-shadow(0px 2px 1px black); */
     /* box-shadow: 0 5px 10px rgb(0, 0, 0, 0.25); */
     height: 70%;
-    /* background-color: #12123a; */
-  
     width: 80%;
     text-align: center;
-   
-    
-
 }
 
-.topic-name
-{
+.topic-name {
     margin-top: 20px;
     background-color: transparent;
 }
+
 /* leader board */
-.right{
+.right {
     background-color: #F6F7FB;
     grid-column: 2/3;
-    
-    
+    padding-top: 30px;
+
+
 }
 
-.body-col{
+.body-col {
     display: grid;
     grid-template-columns: 1.3fr 1fr;
 }
-.board-li{
+
+.board-li {
     background-color: #FFFFFF;
 }
-.board-header{
-    
+
+.board-header {
+
     display: block;
     text-align: center;
     background-color: #FFFFFF;
@@ -298,38 +306,112 @@ border-radius: 5px;
     margin-bottom: 20px;
 }
 
-.leader-board{
+.leader-board {
     padding: 2px;
     background-color: #FFFFFF;
     border: 1px rgb(255, 255, 255);
     border-radius: 7px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
 
 }
-.board{
+
+.board {
     /* background-color: yellowgreen; */
-   
-    
-    display :grid;
+
+
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.ul-user-name{
+
+.ul-user-name {
     list-style-type: none;
     text-align: center;
     background-color: #FFFFFF;
-    
+
 }
-.ul-user-point{
+
+.ul-user-point {
     list-style-type: none;
     text-align: center;
     background-color: #FFFFFF;
 }
-.ul-user-name li{
+
+.ul-user-name li {
     background-color: #FFFFFF;
 }
-.ul-user-point li{
+
+.ul-user-point li {
     background-color: #FFFFFF;
 }
-.name-text{
+
+.name-text {
     background-color: #FFFFFF;
     margin-left: 10px;
+}
+
+/* below is daily mission table */
+.mission {
+    width: 70%;
+    padding-top: 30px;
+    margin-top: 30px;
+    /* background-color: aqua;  */
+    margin: 0 auto;
+}
+
+.mission-board {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mission-header {
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.mission-content {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+
+.mission-content li {
+    background-color: #FFFFFF;
+}
+
+.mission-text {
+    text-align: center;
+
+}
+
+.mission-ul li span {
+    background-color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.mission-point-ul li span {
+    background-color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.mission-point {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.mission-point-ul {
+    list-style: none;
+}
+
+.mission-ul {
+    list-style-type: none;
+}
+
+.fire-icon {
+
+    height: 20px;
 }
